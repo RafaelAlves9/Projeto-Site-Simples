@@ -1,0 +1,415 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+            /* CABEÇALHO */
+
+header{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    max-width: 1100px;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu nav ul{
+    display: flex;
+    flex: 1;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.menu nav ul a:hover{
+    border-bottom: 5px solid #b28756;
+    color: rgb(204, 204, 204);
+}
+
+            /* INICIO */
+
+main{
+    background-image: url(imagens/foto2.jpg);
+    height: calc(100vh - 100px);
+    background-size: cover;
+    background-position: bottom;
+}
+
+main .fundo{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .titulo{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#titulo2{
+    color: #b28756;
+}
+
+#contato{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.button{
+    text-align: center;
+    margin: 70px 0px;
+}
+
+.button a{
+    background-color: #b28756;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 12px 45px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.button a:hover{
+    background-color: white;
+    color: #b28756;
+}
+
+            /* BLOCO 1 */
+
+.sec1{
+    background-color: white;
+    height: 500px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sec1 .titulobloco2{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec1 .titulobloco2 h1{
+    font-size: 30px;
+}
+
+.sec1 .titulobloco2 h2{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.644);
+}
+
+.sec1 .content{
+    margin-top: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.sec1 .content .left{
+    line-height: 24px;
+    text-align: left;
+}
+
+.sec1 .content .left p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding-top: 15px;
+}
+section .content .left div{
+    padding: 25px 0px 0px 0px;
+}
+
+.sec1 .content .left div a{
+    background-color: #b28756;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 12px 40px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.sec1 .content .left div a:hover{
+    background-color: white;
+    color: #b28756;
+    border: 1px solid black;
+}
+
+                /* BLOCO 2*/
+
+.sec2{
+    background-color: black;
+    height: 400px;
+}
+
+.bloco2{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.titulo2{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.titulo2 h3{
+    padding-top: 8px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.sec2 .content2{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 45px;
+}
+
+.sec2 .content2 img{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.sec2 .content2 div{
+    padding: 40px;
+    border-right: 1px solid rgba(128, 128, 128, 0.671);
+}
+
+.sec2 .content2 .contentl{
+    border-left: 1px solid rgba(128, 128, 128, 0.692);
+}
+#balon h3{
+    padding: 0px 25px;
+}
+
+                /* BLOCO 3 */
+
+.sec3{
+    background-color: rgba(128, 128, 128, 0.185);
+    height: 80vh;
+}
+
+.bloco3 {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.bloco3 .titulo3{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.bloco3 .titulo3 h3{
+    padding-top: 9px;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.753);
+    margin-bottom: 20px;
+}
+
+.content3{
+    text-align: center;
+}
+
+.content3 img{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.sec3 .bloco3 .content3 h3{
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sec3 .bloco3 .content3 p{
+    padding-top: 20px ;
+    line-height: 30px;
+}
+
+.sec3 .bloco3 .button a{
+    background-color: #b28756;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 12px 45px;
+    color: white;
+    font-weight: 600;
+}
+
+.sec3 .bloco3 .button a:hover{
+background-color: white;
+color: #b28756;
+border: 1px solid black;
+}
+
+                    /* TRANSITION */
+
+.sec4{
+    border-top: 1px solid rgba(128, 128, 128, 0.555);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.555);
+    box-shadow: 2px 2px 2px black;
+    height: 12vh;
+}
+
+.sec4 .transition{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4 .transition img{
+    padding-top: 25px;
+}
+
+                    /* BLOCO 4 */
+
+.sec5{
+    background-image: url(imagens/foto6.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+
+.sec5 .fundo1{
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 100%;
+    width: 100%;
+}
+
+.sec5 .bloco4{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sec5 .titulo4{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.sec5 .titulo4 h3{
+    padding-top: 7px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.sec5 .bloco4 .content4{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sec5 .bloco4 .content4 .quadrado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 30px 0px;
+    border-radius: 5px;
+}
+
+.sec5 .bloco4 .content4 img{
+    padding-bottom: 20px;
+}
+
+.sec5 .bloco4 .content4 h1{
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.sec5 .bloco4 .content4 h3{
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.sec5 .bloco4 .content4 .icons{
+    display: flex;
+    justify-content: center;
+    padding: 15px 45px;
+}
+
+.sec5 .bloco4 .content4 .icons div{
+    padding-right: 5px;
+}
+
+.sec5 .bloco4 .content4 .icons img{
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 50px;
+}
+
+.sec5 .bloco4 .content4 .icons img:hover{
+    padding: 15px;
+    background-color: #b28756;
+    border-radius: 50px;
+}
+
+                    /* RODAPÉ */
+
+footer{
+    height: 20vh;
+    background-color: black;
+}
+
+.bloco5{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.contatos{
+    padding-top: 50px;
+    color: rgba(128, 128, 128, 0.664);
+}
+
+.contatos h2{
+    padding-bottom: 15px;
+}
+
+.contatos span{
+    text-decoration: underline;
+}
+
+#credito{
+    color: white;
+    padding-top: 17px;
+}
