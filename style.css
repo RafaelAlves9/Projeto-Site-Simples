@@ -65,7 +65,7 @@ main{
 }
 
 main .fundo{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.616);
     height: 100%;
     width: 100%;
     display: flex;
@@ -112,30 +112,30 @@ main .titulo{
 
             /* BLOCO 1 */
 
-.sec1{
+#sec1{
     background-color: white;
     height: 500px;
     max-width: 1100px;
     margin: auto;
 }
 
-.sec1 .titulobloco2{
+.titulobloco2{
     padding-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.sec1 .titulobloco2 h1{
+.titulobloco2 h1{
     font-size: 30px;
 }
 
-.sec1 .titulobloco2 h2{
+.titulobloco2 h2{
     font-size: 15px;
     color: rgba(128, 128, 128, 0.644);
 }
 
-.sec1 .content{
+.content{
     margin-top: 30px;
     display: flex;
     margin: auto;
@@ -143,12 +143,12 @@ main .titulo{
     justify-content: space-between;
 }
 
-.sec1 .content .left{
+.content .left{
     line-height: 24px;
     text-align: left;
 }
 
-.sec1 .content .left p{
+.content .left p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     padding-top: 15px;
@@ -157,7 +157,7 @@ section .content .left div{
     padding: 25px 0px 0px 0px;
 }
 
-.sec1 .content .left div a{
+.content .left div a{
     background-color: #b28756;
     border-radius: 15px;
     font-size: 10px;
@@ -167,7 +167,7 @@ section .content .left div{
     font-weight: 600;
 }
 
-.sec1 .content .left div a:hover{
+.content .left div a:hover{
     background-color: white;
     color: #b28756;
     border: 1px solid black;
@@ -175,7 +175,7 @@ section .content .left div{
 
                 /* BLOCO 2*/
 
-.sec2{
+#sec2{
     background-color: black;
     height: 400px;
 }
@@ -198,24 +198,24 @@ section .content .left div{
     color: rgba(255, 255, 255, 0.568);
 }
 
-.sec2 .content2{
+.content2{
     display: flex;
     justify-content: space-around;
     color: white;
     margin-top: 45px;
 }
 
-.sec2 .content2 img{
+.content2 img{
     padding-bottom: 30px;
     text-align: center;
 }
 
-.sec2 .content2 div{
+.content2 div{
     padding: 40px;
     border-right: 1px solid rgba(128, 128, 128, 0.671);
 }
 
-.sec2 .content2 .contentl{
+.content2 .contentl{
     border-left: 1px solid rgba(128, 128, 128, 0.692);
 }
 #balon h3{
@@ -224,7 +224,7 @@ section .content .left div{
 
                 /* BLOCO 3 */
 
-.sec3{
+#sec3{
     background-color: rgba(128, 128, 128, 0.185);
     height: 80vh;
 }
@@ -255,18 +255,18 @@ section .content .left div{
     padding-bottom: 20px;
 }
 
-.sec3 .bloco3 .content3 h3{
+.bloco3 .content3 h3{
     margin-top: 5px;
     font-size: 17px;
     font-weight: 600;
 }
 
-.sec3 .bloco3 .content3 p{
+.bloco3 .content3 p{
     padding-top: 20px ;
     line-height: 30px;
 }
 
-.sec3 .bloco3 .button a{
+.bloco3 .button a{
     background-color: #b28756;
     border-radius: 15px;
     font-size: 11px;
@@ -275,7 +275,7 @@ section .content .left div{
     font-weight: 600;
 }
 
-.sec3 .bloco3 .button a:hover{
+.bloco3 .button a:hover{
 background-color: white;
 color: #b28756;
 border: 1px solid black;
@@ -283,101 +283,101 @@ border: 1px solid black;
 
                     /* TRANSITION */
 
-.sec4{
+#sec4{
     border-top: 1px solid rgba(128, 128, 128, 0.555);
     border-bottom: 1px solid rgba(128, 128, 128, 0.555);
     box-shadow: 2px 2px 2px black;
     height: 12vh;
 }
 
-.sec4 .transition{
+.transition{
     max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.sec4 .transition img{
+.transition img{
     padding-top: 25px;
 }
 
                     /* BLOCO 4 */
 
-.sec5{
+#sec5{
     background-image: url(imagens/foto6.jpg);
     height: 70vh;
     background-size: cover;
 }
 
-.sec5 .fundo1{
-    background-color: rgba(0, 0, 0, 0.651);
+.fundo1{
+    background-color: rgba(0, 0, 0, 0.425);
     height: 100%;
     width: 100%;
 }
 
-.sec5 .bloco4{
+.bloco4{
     max-width: 1100px;
     margin: auto;
 }
 
-.sec5 .titulo4{
+.titulo4{
     text-align: center;
     color: white;
     padding-top: 50px;
 }
 
-.sec5 .titulo4 h3{
+.titulo4 h3{
     padding-top: 7px;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.575);
 }
 
-.sec5 .bloco4 .content4{
+.bloco4 .content4{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.sec5 .bloco4 .content4 .quadrado{
+.bloco4 .content4 .quadrado{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     padding: 30px 0px;
     border-radius: 5px;
 }
 
-.sec5 .bloco4 .content4 img{
+.bloco4 .content4 img{
     padding-bottom: 20px;
 }
 
-.sec5 .bloco4 .content4 h1{
+.bloco4 .content4 h1{
     font-weight: 500;
     padding-bottom: 7px;
 }
 
-.sec5 .bloco4 .content4 h3{
+.bloco4 .content4 h3{
     font-weight: 500;
     font-size: 15px;
     padding-bottom: 25px;
 }
 
-.sec5 .bloco4 .content4 .icons{
+.bloco4 .content4 .icons{
     display: flex;
     justify-content: center;
     padding: 15px 45px;
 }
 
-.sec5 .bloco4 .content4 .icons div{
+.bloco4 .content4 .icons div{
     padding-right: 5px;
 }
 
-.sec5 .bloco4 .content4 .icons img{
+.bloco4 .content4 .icons img{
     padding: 15px;
     background-color: rgba(128, 128, 128, 0.514);
     border-radius: 50px;
 }
 
-.sec5 .bloco4 .content4 .icons img:hover{
+.bloco4 .content4 .icons img:hover{
     padding: 15px;
     background-color: #b28756;
     border-radius: 50px;
@@ -386,8 +386,9 @@ border: 1px solid black;
                     /* RODAPÉ */
 
 footer{
-    height: 20vh;
+    height: 135px;
     background-color: black;
+    border-top: 1px solid rgba(128, 128, 128, 0.644);
 }
 
 .bloco5{
@@ -396,20 +397,16 @@ footer{
     text-align: center;
 }
 
+                    /* CRÉDITOS */
 .contatos{
-    padding-top: 50px;
-    color: rgba(128, 128, 128, 0.664);
+    padding-top: 25px; 
+    color: rgba(255, 255, 255, 0.692);
 }
 
 .contatos h2{
     padding-bottom: 15px;
 }
 
-.contatos span{
-    text-decoration: underline;
-}
-
 #credito{
     color: white;
-    padding-top: 17px;
 }
