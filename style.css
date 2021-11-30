@@ -5,11 +5,11 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
             /* CABEÇALHO */
