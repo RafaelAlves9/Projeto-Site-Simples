@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 *{
+    scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -9,7 +10,6 @@
 
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
 }
 
             /* CABEÇALHO */
