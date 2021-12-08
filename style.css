@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100vw;
 }
 
             /* CABEÇALHO */
@@ -358,7 +359,7 @@ footer{
 }
 
 
-@media (max-width:840px){
+@media (max-width:1400px){
     .menu{
         justify-content: center;
     }
@@ -369,18 +370,18 @@ footer{
         align-items: center;
     }
     .menu li a{
-        font-size: 11px;
+        font-size: 12px;
     }
     .titulo{
         padding-top: 150px;
     }
-    #titulo2{
-        font-size: 40px;
+    .titulo h1{
+        font-size: 35px;
     }
     #sec1{
         background-color: white;
-        height: 450px;
-        width: 95%;
+        height: 400px;
+        width: 100%;
         margin: auto;
     }
     .content{
@@ -395,7 +396,7 @@ footer{
     }
 
     #sec2{
-        height: 500px;
+        height: fit-content;
     }
     .content2{
         flex-wrap: wrap;
@@ -416,7 +417,7 @@ footer{
     }
 
     #sec4{
-        height: 200px;
+        height: fit-content;
     }
     .transition{
         flex-wrap: wrap;
@@ -439,9 +440,30 @@ footer{
         margin-bottom: 15px;
     }
     .contatos{
-        font
+        bottom: 100;
     }
     .contatos h2{
+        font-size: 18px;
+    }
+    #credito{
         font-size: 15px;
+    }
+}
+@media (max-width:480px){
+    .menu li a{
+        padding: 0 7px 0 5px;
+        font-size: 10px;
+    }
+    #sec1{
+        height: 500px;
+    }
+    #sec2{
+        height: fit-content;
+    }
+    .content2{
+        flex-direction: column;
+    }
+    #sec3{
+        height: 850px;
     }
 }
