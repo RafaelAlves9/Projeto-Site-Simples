@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 *{
     scroll-behavior: smooth;
     margin: 0px;
@@ -12,13 +11,15 @@ body{
 }
 
             /* CABEÇALHO */
-
 header{
     background-color: black;
     color: white;
     height: 100px;
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
 }
-
 .header{
     display: flex;
     max-width: 1100px;
@@ -26,19 +27,16 @@ header{
     margin: auto;
     align-items: center;
 }
-
 .menu{
     display: flex;
     flex: 1;
     justify-content: flex-end;
 }
-
 .menu nav ul{
     display: flex;
     flex: 1;
     list-style: none;
 }
-
 .menu li a{
     text-decoration: none;
     color: white;
@@ -49,21 +47,18 @@ header{
     align-items: center;
     font-size: 13px;
 }
-
 .menu nav ul a:hover{
     border-bottom: 5px solid #b28756;
     color: rgb(204, 204, 204);
 }
 
             /* INICIO */
-
 main{
     background-image: url(imagens/foto2.jpg);
     height: calc(100vh - 100px);
     background-size: cover;
     background-position: bottom;
 }
-
 main .fundo{
     background-color: rgba(0, 0, 0, 0.616);
     height: 100%;
@@ -72,29 +67,24 @@ main .fundo{
     justify-content: center;
     flex-direction: column;
 }
-
 main .titulo{
     text-align: center;
     color: white;
     font-size: 30px;
     font-weight: 600;
 }
-
 #titulo2{
     color: #b28756;
 }
-
 #contato{
     text-align: center;
     font-size: 25px;
     margin-top: 10px;
 }
-
 .button{
     text-align: center;
     margin: 70px 0px;
 }
-
 .button a{
     background-color: #b28756;
     border-radius: 15px;
@@ -104,37 +94,31 @@ main .titulo{
     color: white;
     font-weight: 600;
 }
-
 .button a:hover{
     background-color: white;
     color: #b28756;
 }
 
             /* BLOCO 1 */
-
 #sec1{
     background-color: white;
     height: 500px;
     max-width: 1100px;
     margin: auto;
 }
-
 .titulobloco2{
     padding-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .titulobloco2 h1{
     font-size: 30px;
 }
-
 .titulobloco2 h2{
     font-size: 15px;
     color: rgba(128, 128, 128, 0.644);
 }
-
 .content{
     margin-top: 30px;
     display: flex;
@@ -142,12 +126,10 @@ main .titulo{
     margin-top: 30px;
     justify-content: space-between;
 }
-
 .content .left{
     line-height: 24px;
     text-align: left;
 }
-
 .content .left p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
@@ -156,7 +138,6 @@ main .titulo{
 section .content .left div{
     padding: 25px 0px 0px 0px;
 }
-
 .content .left div a{
     background-color: #b28756;
     border-radius: 15px;
@@ -166,7 +147,6 @@ section .content .left div{
     color: white;
     font-weight: 600;
 }
-
 .content .left div a:hover{
     background-color: white;
     color: #b28756;
@@ -179,42 +159,35 @@ section .content .left div{
     background-color: black;
     height: 400px;
 }
-
 .bloco2{
     max-width: 1100px;
     margin: auto;
     text-align: center;
 }
-
 .titulo2{
     text-align: center;
     padding-top: 50px;
     color: white;
 }
-
 .titulo2 h3{
     padding-top: 8px;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.568);
 }
-
 .content2{
     display: flex;
     justify-content: space-around;
     color: white;
     margin-top: 45px;
 }
-
 .content2 img{
     padding-bottom: 30px;
     text-align: center;
 }
-
 .content2 div{
     padding: 40px;
     border-right: 1px solid rgba(128, 128, 128, 0.671);
 }
-
 .content2 .contentl{
     border-left: 1px solid rgba(128, 128, 128, 0.692);
 }
@@ -228,44 +201,36 @@ section .content .left div{
     background-color: rgba(128, 128, 128, 0.185);
     height: 80vh;
 }
-
 .bloco3 {
     max-width: 1100px;
     margin: auto;
 }
-
 .bloco3 .titulo3{
     padding-top: 50px;
     text-align: center;
 }
-
 .bloco3 .titulo3 h3{
     padding-top: 9px;
     font-size: 14px;
     color: rgba(128, 128, 128, 0.753);
     margin-bottom: 20px;
 }
-
 .content3{
     text-align: center;
 }
-
 .content3 img{
     padding-top: 35px;
     padding-bottom: 20px;
 }
-
 .bloco3 .content3 h3{
     margin-top: 5px;
     font-size: 17px;
     font-weight: 600;
 }
-
 .bloco3 .content3 p{
     padding-top: 20px ;
     line-height: 30px;
 }
-
 .bloco3 .button a{
     background-color: #b28756;
     border-radius: 15px;
@@ -274,7 +239,6 @@ section .content .left div{
     color: white;
     font-weight: 600;
 }
-
 .bloco3 .button a:hover{
 background-color: white;
 color: #b28756;
@@ -282,21 +246,18 @@ border: 1px solid black;
 }
 
                     /* TRANSITION */
-
 #sec4{
     border-top: 1px solid rgba(128, 128, 128, 0.555);
     border-bottom: 1px solid rgba(128, 128, 128, 0.555);
     box-shadow: 2px 2px 2px black;
     height: 12vh;
 }
-
 .transition{
     max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-
 .transition img{
     padding-top: 25px;
 }
@@ -308,53 +269,44 @@ border: 1px solid black;
     height: 70vh;
     background-size: cover;
 }
-
 .fundo1{
     background-color: rgba(0, 0, 0, 0.425);
     height: 100%;
     width: 100%;
 }
-
 .bloco4{
     max-width: 1100px;
     margin: auto;
 }
-
 .titulo4{
     text-align: center;
     color: white;
     padding-top: 50px;
 }
-
 .titulo4 h3{
     padding-top: 7px;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.575);
 }
-
 .bloco4 .content4{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-
 .bloco4 .content4 .quadrado{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     padding: 30px 0px;
     border-radius: 5px;
 }
-
 .bloco4 .content4 img{
     padding-bottom: 20px;
 }
-
 .bloco4 .content4 h1{
     font-weight: 500;
     padding-bottom: 7px;
 }
-
 .bloco4 .content4 h3{
     font-weight: 500;
     font-size: 15px;
@@ -366,17 +318,14 @@ border: 1px solid black;
     justify-content: center;
     padding: 15px 45px;
 }
-
 .bloco4 .content4 .icons div{
     padding-right: 5px;
 }
-
 .bloco4 .content4 .icons img{
     padding: 15px;
     background-color: rgba(128, 128, 128, 0.514);
     border-radius: 50px;
 }
-
 .bloco4 .content4 .icons img:hover{
     padding: 15px;
     background-color: #b28756;
@@ -390,7 +339,6 @@ footer{
     background-color: black;
     border-top: 1px solid rgba(128, 128, 128, 0.644);
 }
-
 .bloco5{
     max-width: 1100px;
     margin: auto;
@@ -398,15 +346,102 @@ footer{
 }
 
                     /* CRÉDITOS */
+#credito{
+    color: white;
+}
 .contatos{
     padding-top: 25px; 
     color: rgba(255, 255, 255, 0.692);
 }
-
 .contatos h2{
     padding-bottom: 15px;
 }
 
-#credito{
-    color: white;
+
+@media (max-width:840px){
+    .menu{
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+    .menu nav ul{
+        align-items: center;
+    }
+    .menu li a{
+        font-size: 11px;
+    }
+    .titulo{
+        padding-top: 150px;
+    }
+    #titulo2{
+        font-size: 40px;
+    }
+    #sec1{
+        background-color: white;
+        height: 450px;
+        width: 95%;
+        margin: auto;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content .left{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .content .right{
+        display: none;
+    }
+
+    #sec2{
+        height: 500px;
+    }
+    .content2{
+        flex-wrap: wrap;
+    }
+    .content2 div{
+        padding: 10px;
+        border-right: none;
+    }
+    .content2 .contentl{
+        border-left: none;
+    }
+
+    #sec3{
+        height: 800px;
+    }
+    .bloco3 .content3 p{
+        padding: 0 5px;
+    }
+
+    #sec4{
+        height: 200px;
+    }
+    .transition{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .transition img{
+        padding: 15px 25px;
+    }
+
+    #sec5{
+        height: 1500px;
+    }
+    .content4{
+        flex-direction: column;
+    }
+    .quadrado{
+        padding: 0;
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .contatos{
+        font
+    }
+    .contatos h2{
+        font-size: 15px;
+    }
 }
